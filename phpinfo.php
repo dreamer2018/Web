@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title>dreamchasinger</title>
+    </head>
+    <body>
+        <?php
+            phpinfo();
+        ?>
+    </body>
+</html>
