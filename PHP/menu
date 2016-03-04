@@ -1,0 +1,67 @@
+{
+  "button": [
+    {
+      "name": "关于我们",
+      "sub_button": [
+        {
+          "type": "click",
+          "name": "项目介绍",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODYxNzM1MA==&mid=400417002&idx=1&sn=1b3a7d90a2d2f36bdb2ca2c597870682#rd",
+          "sub_button": [ ]
+        },
+        {
+          "type": "click",
+          "name": "团队介绍",
+          "key": "V1001_QUERY",
+          "sub_button": [ ]
+        },
+        {
+          "type": "click",
+          "name": "联系我们",
+          "url": "http://www.baidu.com",
+          "sub_button": [ ]
+        }
+      ]
+    },
+    {
+      "name": "动态",
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "近期活动",
+          "url": "http://www.baidu.com",
+          "sub_button": [ ]
+        },
+        {
+          "type": "click",
+          "name": "历史回顾",
+          "key": "V1001_QUERY",
+          "sub_button": [ ]
+        }
+      ]
+    },
+    {
+      "name": "MORE",
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "支持我们",
+          "url": "http://www.baidu.com",
+          "sub_button": [ ]
+        },
+        {
+          "type": "click",
+          "name": "加入我们",
+          "key": "http://mp.weixin.qq.com/s?__biz=MzA5ODYxNzM1MA==&mid=400485971&idx=1&sn=53a183c4bd0ab8eeb0e5b06d1a04f488#rd",
+          "sub_button": [ ]
+        },
+        {
+          "type":"view",
+          "name":"访问官网",
+          "key" :"http://www.greencomnext.icoc.cc",
+          "sub_button":[ ]
+        }
+      ]
+    }
+  ]
+}
