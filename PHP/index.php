@@ -63,18 +63,7 @@ class wechatCallbackapiTest
                         <Content><![CDATA[%s]]></Content>
                         <FuncFlag>0</FuncFlag>
                         </xml>";
-            //返回图片消息xml
-            $imageTpl="	 <xml>
-                         <ToUserName><![CDATA[toUser]]></ToUserName>
-                         <FromUserName><![CDATA[fromUser]]></FromUserName>
-                         <CreateTime>1348831860</CreateTime>
-                         <MsgType><![CDATA[image]]></MsgType>
-                         <PicUrl><![CDATA[this is a url]]></PicUrl>
-                         <MediaId><![CDATA[media_id]]></MediaId>
-                         <MsgId>1234567890123456</MsgId>
-                         </xml>";
-
-            if($keyword == "?" || $keyword == "？")
+            if($keyword == "time" )
             {
                 $msgType = "text";
                 $contentStr = date("Y-m-d H:i:s",time());
@@ -84,6 +73,17 @@ class wechatCallbackapiTest
             {
                 $msgType = "text";
                 $contentStr = "http://www.dreamchasinger.cn";
+                $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
+                echo $resultStr;
+            }else if($keyword == "帮助")
+            {
+                $msgType = "text";
+                $contentStr = "
+                     ？   ----> 当前时间
+                     官网  ----> 周攀的个人网站
+                     *(任意输入) -----> 帮助
+                     help  ----> 帮助
+                ";
                 $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
                 echo $resultStr;
             }
