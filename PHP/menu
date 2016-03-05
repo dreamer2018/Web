@@ -4,21 +4,21 @@
       "name": "关于我们",
       "sub_button": [
         {
-          "type": "click",
+          "type": "view",
           "name": "项目介绍",
           "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODYxNzM1MA==&mid=400417002&idx=1&sn=1b3a7d90a2d2f36bdb2ca2c597870682#rd",
           "sub_button": [ ]
         },
         {
-          "type": "click",
+          "type": "view",
           "name": "团队介绍",
-          "key": "V1001_QUERY",
+          "url": "http://www.greencomnext.icoc.cc/col.jsp?id=101",
           "sub_button": [ ]
         },
         {
-          "type": "click",
+          "type": "view",
           "name": "联系我们",
-          "url": "http://www.baidu.com",
+          "url": "http://www.greencomnext.icoc.cc/col.jsp?id=102",
           "sub_button": [ ]
         }
       ]
@@ -29,13 +29,13 @@
         {
           "type": "view",
           "name": "近期活动",
-          "url": "http://www.baidu.com",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODYxNzM1MA==&mid=401323112&idx=1&sn=49ca2ff32b470ab1f58053732c724b8e#rd",
           "sub_button": [ ]
         },
         {
-          "type": "click",
+          "type": "view",
           "name": "历史回顾",
-          "key": "V1001_QUERY",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODYxNzM1MA==&mid=401323120&idx=1&sn=f329c67aea044a55343f378a2c1104c3#rd",
           "sub_button": [ ]
         }
       ]
@@ -46,19 +46,19 @@
         {
           "type": "view",
           "name": "支持我们",
-          "url": "http://www.baidu.com",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODYxNzM1MA==&mid=401323130&idx=1&sn=d11391a9de8c25b2fc1ccb65f23db7ce#rd",
           "sub_button": [ ]
         },
         {
-          "type": "click",
+          "type": "view",
           "name": "加入我们",
-          "key": "http://mp.weixin.qq.com/s?__biz=MzA5ODYxNzM1MA==&mid=400485971&idx=1&sn=53a183c4bd0ab8eeb0e5b06d1a04f488#rd",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODYxNzM1MA==&mid=400485971&idx=1&sn=53a183c4bd0ab8eeb0e5b06d1a04f488#rd",
           "sub_button": [ ]
         },
         {
           "type":"view",
           "name":"访问官网",
-          "key" :"http://www.greencomnext.icoc.cc",
+          "url" :"http://www.greencomnext.icoc.cc",
           "sub_button":[ ]
         }
       ]
